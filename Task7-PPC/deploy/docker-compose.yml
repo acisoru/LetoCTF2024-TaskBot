@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+        task:
+                build: ./src/
+                ports:
+                        - "8181:8181"
+                environment:
+                        - OSADA_SIRAKUZ_LISTEN_ADDRESS=:8181
+                        - OSADA_SIRAKUZ_FLAG=n0l1_7urb4r3_c1rcul05_m305
